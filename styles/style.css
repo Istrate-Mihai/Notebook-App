@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: About_Page;
+  src: url("../fonts/Adventure.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: burlywood;
+  background-image: url("../images/notebookBackground.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#Main-container {
+  width: 100%;
+  margin: 10px auto;
+  overflow: hidden;
+  background-color: rgba(181, 181, 181, 0.45);
+}
+
+header {
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  color: #654321;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: yellow;
+}
+
+nav {
+  float: right;
+  background-color: cadetblue;
+  width: 40%;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+  font-size: 22px;
+  clear: both;
+  color: darkblue;
+  font-weight: bold;
+}
+
+form {
+  width: 80%;
+  margin: 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#signUp_Form {
+  margin-left: -1%;
+  background-image: url("../images/forms.jpg");
+}
+
+#signIn_Form {
+  margin-left: -1%;
+  background-image: url("../images/cybersecurity.jpg");
+}
+
+#ActivityForm {
+  margin-left: -1%;
+}
+
+.deleteNote {
+  display: inline;
+}
+
+.songDeletion {
+  display: inline;
+  position: relative;
+  top: -9px;
+}
+
+form label {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: burlywood;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+  border: 2px solid red;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: aliceblue;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 60%;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  color: whitesmoke;
+  background-color: brown;
+  font-size: 18px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  color: yellow;
+}
+
+#Menu_Button,
+#Calculator_Button {
+  float: left;
+  margin-left: 4px;
+  font-size: 20px;
+}
+
+#Calculator_Button {
+  margin-right: 2px;
+}
+
+main {
+  width: 68%;
+  clear: both;
+  margin-left: 10px;
+}
+
+#index_page_gallery {
+  background-image: url("../images/index_gallery1.jpg");
+  width: 80%;
+  height: 300px;
+  margin: 65px auto;
+  color: white;
+  text-align: center;
+}
+
+#read_More_for_About {
+  color: blue;
+  font-weight: bold;
+  cursor: grab;
+}
+
+#further_reading_for_About {
+  display: none;
+}
+
+#collapse_read_More_for_About {
+  color: brown;
+  font-weight: bold;
+  cursor: grab;
+}
+
+td.calculator_button {
+  border: none;
+}
+
+#Calculator {
+  height: 380px;
+  margin-top: 100px;
+  background-image: url("../images/calculator.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  background-color: white;
+  display: none;
+}
+
+#Quote_Container {
+  clear: both;
+  text-align: center;
+  font-family: About_Page;
+}
+
+#Quote_Generator_Button {
+  float: left;
+}
+
+#quote {
+  color: blue;
+  font-weight: bold;
+}
+
+.showedData li {
+  display: block;
+  color: darkblue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.avatarBase {
+  width: 100px;
+  height: 100px;
+  background-image: url("../images/UserImage.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: right;
+}
+
+.userData li {
+  display: block;
+  color: #560319;
+  font-weight: bold;
+}
+.avatarType {
+  width: 200px;
+  height: 300px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.form_Edit_Data {
+  display: none;
+}
+
+textarea {
+  width: 500px;
+  height: 200px;
+  resize: none;
+}
+
+#controlActivity,
+#controlSong {
+  margin-left: 2px;
+  font-size: 16px;
+}
+
+#songUploaded {
+  font-size: 14px;
+}
+
+#myNotes {
+  margin-left: 10%;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+#myNotes,
+th,
+td {
+  border: 2px solid blue;
+  padding: 10px;
+}
+
+.about_reading {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#accountDeletion_Form {
+  display: none;
+}
+
+#language_selection {
+  display: none;
+  font-size: xx-large;
+  font-weight: bold;
+  color: darkviolet;
+}
+
+#PrivacyPolicy {
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+#PrivacyPolicy:hover {
+  color: darkviolet;
+}
