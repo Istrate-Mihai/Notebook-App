@@ -1,1 +1,1 @@
-Full PHP 7/Javvascript application, for storing notes and files.
+Full PHP 7/Javascript application, for storing notes and files.
